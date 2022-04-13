@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="../aulas/menuLateral.css">
+    <title>Pag. Boleto</title>
+</head>
+<body>
+    <img src="./Imersão Gastro.png" alt="logo">
+    <br><br><br>
+    <div class="subtitulo">
+        <h3>Preencha os dados abaixo e imprima/scaneie o boleto para pagar</h3>
+    </div>
+    <div class="form">
+        <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+        <br>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        <br>
+        <input type="email" id="emailid" placeholder="ThiVale123@gmail.com" name="email" />
+        <br>
+        <input type="text" id="emailid" placeholder="143.978456-54" name="CPF" />
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+    </div>
+    <br><br><br>
+    <div>
+        <img src="C:\Users\Aluno\Documents\senna\Pagina de pagamento 18.03\1-codigo-de-barras-removebg-preview.png" width="30%" alt="">
+        <br><br>
+        <a href="https://ajuda.projetusti.com.br/images/5/58/Boleto.png"><h2>Imprimir</h2></a>
+    </div>
+
+    <div id="lateral">
+        <div id="menu">
+                    
+        <h3 class="link-titulo">Menu</h3>
+        <ul class="box">					
+            <li><a href="../pagamento/pagamento.html">Voltar ao Home</a></li>
+        </ul>
+
+        <h3 class="link-titulo">Modulos</h3>
+        <ul class="box">
+            <li><a href="../aulas/Modulos.html">Assistir as aulas</a></li>
+        </ul>
+
+        <h3 class="link-titulo">Acervo Pessoal</h3>
+        <ul class="box">					
+            <li><a href="#">Meu perfil</a></li>
+            <li><a href="#">Histórico</a></li>  			
+
+        </ul>
+
+        <h3 class="link-titulo">Configuraçoes</h3>
+        <ul class="box">
+            <li><a href="#">Central de Ajuda</a></li>
+            <li><a href="#">Ajustes</a></li>
+        </ul>
+    </div>
+
+      <script src="Index.js"></script>
+</body>
+</html>

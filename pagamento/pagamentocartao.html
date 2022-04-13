@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../aulas/menuLateral.css">
+    
+    <title>Pag. Cartão</title>
+</head>
+<body>
+    <img src="./Imersão Gastro.png" alt="logo">
+    <br><br><br>
+    <div class="subtitulo">
+        <h3>Preencha os seus dados e do cartão abaixo para pagar</h3>
+    </div> 
+
+    <div class="form">
+        <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+        <br>
+        <input type="tel" id="foneid" placeholder="(48)12345-6789" name="fone" />
+        <br>
+        <input type="email" id="emailid" placeholder="ThiVale123@gmail.com" name="email" />
+        <br>
+        <input type="text" id="emailid" placeholder="143.978456-54" name="CPF" />
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+    </div>
+    <br>
+    <br>
+    <div class="subtitulo">
+        <h3>Cartão:</h3>
+    </div>
+     <div class="form"> 
+        <input type="text" id="nomeid" placeholder="Numero do cartão" required="required" name="nome" />
+        <br>
+        <input type="text" id="foneid" placeholder="CV" name="fone" />
+        <br>
+        <input type="text" id="emailid" placeholder="Nome titular" name="email" />
+        <br>
+        <input type="text" id="emailid" placeholder="Escolha uma opção de bandeira válida" list="faixa">
+            <datalist id="faixa">
+                <option >visa</option>
+                <option >mastercard</option>
+                <option >elo</option>
+            </datalist>
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Pagar" />
+    </div>
+
+    <div id="lateral">
+        <div id="menu">
+                    
+        <h3 class="link-titulo">Menu</h3>
+        <ul class="box">					
+            <li><a href="../pagamento/pagamento.html">Voltar ao Home</a></li>
+        </ul>
+
+        <h3 class="link-titulo">Modulos</h3>
+        <ul class="box">
+            <li><a href="../aulas/Modulos.html">Assistir as aulas</a></li>
+        </ul>
+
+        <h3 class="link-titulo">Acervo Pessoal</h3>
+        <ul class="box">					
+            <li><a href="#">Meu perfil</a></li>
+            <li><a href="#">Histórico</a></li>  			
+
+        </ul>
+
+        <h3 class="link-titulo">Configuraçoes</h3>
+        <ul class="box">
+            <li><a href="#">Central de Ajuda</a></li>
+            <li><a href="#">Ajustes</a></li>
+        </ul>
+    </div>
+
+      <script src="Index.js"></script>
+</body>
+</html>

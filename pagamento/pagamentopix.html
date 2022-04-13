@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="../aulas/menuLateral.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./Imersão Gastro.png" alt="logo">
+    <br><br><br>
+    <div class="subtitulo">
+        <h3>Preencha os dados abaixo e scaneie o QRCODE abaixo para pagar</h3>
+    </div>
+
+    <div class="form">
+        <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+        <label for="nome">Nome</label>
+        <br>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        <label for="fone">Fone</label>
+        <br>
+        <input type="email" id="emailid" placeholder="ThiVale123@gmail.com" name="email" />
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="emailid" placeholder="143.978456-54" name="CPF" />
+        <label for="CPF">CPF</label>
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+    </div>
+
+    <div id="lateral">
+        <div id="menu">
+                    
+        <h3 class="link-titulo">Menu</h3>
+        <ul class="box">					
+            <li><a href="../pagamento/pagamento.html">Voltar ao Home</a></li>
+        </ul>
+
+        <h3 class="link-titulo">Modulos</h3>
+        <ul class="box">
+            <li><a href="../aulas/Modulos.html">Assistir as aulas</a></li>
+        </ul>
+
+        <h3 class="link-titulo">Acervo Pessoal</h3>
+        <ul class="box">					
+            <li><a href="#">Meu perfil</a></li>
+            <li><a href="#">Histórico</a></li>  			
+
+        </ul>
+
+        <h3 class="link-titulo">Configuraçoes</h3>
+        <ul class="box">
+            <li><a href="#">Central de Ajuda</a></li>
+            <li><a href="#">Ajustes</a></li>
+        </ul>
+    </div>
+    <div class="piximg">
+        <img src="Pix ImersãoGastro (2).png" width="20%" height="30%" alt="">
+    </div>
+      <script src="Index.js"></script>
+</body>
+</html>

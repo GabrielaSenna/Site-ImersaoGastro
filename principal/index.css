@@ -1,0 +1,78 @@
+body{
+    background-color: #6DC4DB;
+    border-width:10px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #FF9A84;
+    font-weight:bold;
+    text-shadow: blanchedalmond;
+    font-variant:small-caps;
+}
+
+.tituloForms{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #FF9A84;
+    font-weight:bold;
+    text-shadow: blanchedalmond;
+    font-variant:small-caps;
+}
+
+.descricao{
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: blanchedalmond;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 850px;
+
+}
+
+
+input, textarea {
+    padding: 8px;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #FF9A84;
+    text-align: center;
+    width: 35%;
+    
+}
+
+
+.enviar {
+    background-color: #FFBD59;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid  #FF9A84;
+    color:  #FFFFFF;
+}
+
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
